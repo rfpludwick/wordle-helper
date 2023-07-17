@@ -1,0 +1,6 @@
+{
+	"window.title": "${activeEditorMedium}${dirty}${separator}Wordle Helper${separator}${appName}",
+	"cSpell.words": [
+		"Wordle"
+	]
+}
