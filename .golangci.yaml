@@ -1,0 +1,5 @@
+---
+
+issues:
+  exclude-dirs:
+    - "/home/vscode"

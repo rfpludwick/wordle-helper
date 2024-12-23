@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/TwiN/go-color"
+	color "github.com/TwiN/go-color"
 	"golang.org/x/exp/slices"
 )
 
