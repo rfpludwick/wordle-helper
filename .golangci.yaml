@@ -1,5 +1,6 @@
 ---
 
 issues:
-  exclude-dirs:
-    - "/home/vscode"
+  exclude-dirs: # linter is flagging installed modules for some reason, so ignore
+    - /home/vscode
+    - /root
