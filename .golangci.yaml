@@ -1,6 +1,24 @@
 ---
 
-issues:
-  exclude-dirs: # linter is flagging installed modules for some reason, so ignore
-    - /home/vscode
-    - /root
+version: "2"
+linters:
+  exclusions:
+    generated: lax
+    presets:
+      - comments
+      - common-false-positives
+      - legacy
+      - std-error-handling
+    paths:
+      - /home/vscode
+      - /root
+      - third_party$
+      - builtin$
+      - examples$
+formatters:
+  exclusions:
+    generated: lax
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
