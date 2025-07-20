@@ -283,7 +283,7 @@ func promptGuess(scanner *bufio.Scanner, guessPrompt string, realGuess bool) *Gu
 				letterIsUpper := (letter >= 'A') && (letter <= 'Z')
 				letterIsLower := (letter >= 'a') && (letter <= 'z')
 
-				if !(letterIsUpper || letterIsLower) {
+				if !letterIsUpper && !letterIsLower {
 					fmt.Printf("\nInvalid character for position %d: %c\n", guessPositionIncrement, letter)
 
 					guess.Valid = false
@@ -337,7 +337,7 @@ func promptGuess(scanner *bufio.Scanner, guessPrompt string, realGuess bool) *Gu
 			}
 		}
 
-		if !(guess.Valid && realGuess) {
+		if !guess.Valid || !realGuess {
 			break
 		}
 
