@@ -6,9 +6,9 @@ linters:
     generated: lax
     presets:
       - comments
-      - common-false-positives
+      - "common-false-positives"
       - legacy
-      - std-error-handling
+      - "std-error-handling"
     paths:
       - /home/vscode
       - /root
