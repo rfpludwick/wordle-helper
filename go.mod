@@ -2,7 +2,7 @@ module github.com/rfpludwick/wordle-helper
 
 go 1.24.0
 
-toolchain go1.25.1
+toolchain go1.25.2
 
 require (
 	github.com/TwiN/go-color v1.4.1
