@@ -6,5 +6,5 @@ toolchain go1.25.2
 
 require (
 	github.com/TwiN/go-color v1.4.1
-	golang.org/x/exp v0.0.0-20251002181428-27f1f14c8bb9
+	golang.org/x/exp v0.0.0-20251009144603-d2f985daa21b
 )
