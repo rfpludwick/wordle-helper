@@ -392,7 +392,8 @@ func promptGuess(scanner *bufio.Scanner, guessPrompt string, realGuess bool) *Gu
 					break
 				}
 
-				if !slices.Contains(correctLetterPositions[dwLetter], j) {
+				positions := correctLetterPositions[dwLetter]
+				if !slices.Contains(positions, j) {
 					dictionaryWords[i].Valid = false
 				}
 
