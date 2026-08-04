@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"slices"
 	"strings"
 
 	color "github.com/TwiN/go-color"
-	"golang.org/x/exp/slices"
 )
 
 const (
